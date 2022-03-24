@@ -21,6 +21,8 @@ $(document).ready(function() {
             MoreInfoForm.append(heightInput);
             MoreInfoForm.append(widthInput);
             MoreInfoForm.append(lengthInput);
+        }else if (selectproductType.val() == "") {
+            MoreInfoForm.empty();
         }
     });
 
